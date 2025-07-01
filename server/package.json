@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "socket.io project",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "pratik singh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  }
+}
